@@ -1,0 +1,230 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/09/2018, 13:20:45
+    Author     : lucia
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    width: 0;
+}
+
+:root {
+    font-size: 30px;
+    font-family: 'Cantarell', sans-serif;
+    color: #263238;
+    background-color: #000000;
+}
+
+
+
+
+/*==[ LINHA FULL AND CENTER ]======================*/
+
+
+
+.l-full {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.l-center {
+    width: 1024px;
+    height: auto;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+
+/*==[  FLEX HEADER ]======================================================*/
+
+
+ .logo-lmi {
+    width: 500px;
+    height: 500px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 15%;
+      
+}
+
+
+
+
+
+/*==[  FONTE  ]======================================================*/
+
+/*===============================================*/
+
+/*====== Responsivel 360px =================*/
+
+/*===============================================*/
+
+@media screen and (min-width: 319px) and (max-width: 359px) {
+    .l-full {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .l-center {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+   .logo-lmi {
+    width: 180px;
+    height: 180px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px;
+      
+}
+    
+   
+
+}
+
+/*===============================================*/
+
+/*====== Responsivel 360px =================*/
+
+/*===============================================*/
+
+@media screen and (min-width: 360px) and (max-width: 479px) {
+    .l-full {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .l-center {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+  .logo-lmi {
+    width: 200px;
+    height: 200px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 30%;
+      
+}
+
+
+}
+
+/*===============================================*/
+
+/*====== Responsivel 360px =================*/
+
+/*===============================================*/
+
+@media screen and (min-width: 480px) and (max-width: 959px) {
+    .l-full {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .l-center {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+  .logo-lmi {
+    width: 300px;
+    height: 300px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 2%;
+      
+}
+}
+
+/*===============================================*/
+
+/*====== Responsivel 360px =================*/
+
+/*===============================================*/
+
+@media screen and (min-width: 960px) and (max-width: 1024px) {
+    .l-full {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .l-center {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    
+   .logo-lmi {
+    width: 500px;
+    height: 500px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 15%;
+      
+}
+
+}
